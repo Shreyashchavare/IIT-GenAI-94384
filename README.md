@@ -40,6 +40,20 @@ This repository contains all the **assignments and practice programs** completed
 
 ---
 
+## 🗒️ Comments Guide 
+| Type       | When to Use                              |
+| ---------- | ---------------------------------------- |
+| `feat`     | New feature                              |
+| `fix`      | Bug fix                                  |
+| `docs`     | README or documentation                  |
+| `style`    | Formatting only (spaces, semicolons, UI) |
+| `refactor` | Code improvement without behavior change |
+| `perf`     | Performance optimization                 |
+| `test`     | Adding or updating tests                 |
+| `chore`    | Dependencies, config, cleanup            |
+
+---
+
 ## ⚒️Technology and Tools
 - ✅ Python
 
