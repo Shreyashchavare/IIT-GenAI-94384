@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+Project_A/venva
+*.env
+air_pollution_app/venv_weather
+*.env
