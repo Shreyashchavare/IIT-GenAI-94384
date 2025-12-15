@@ -6,6 +6,7 @@ venv_weather/
 .venv/
 .env/
 # Environment variables
+Assignment3/
 .env
 *.env
 # =========================
