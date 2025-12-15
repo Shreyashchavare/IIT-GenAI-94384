@@ -1,5 +1,33 @@
+# =========================
+# Python virtual environments
+# =========================
+venva/
+venv_weather/
+.venv/
+.env/
+# Environment variables
+.env
+*.env
+# =========================
+# Python cache
+# =========================
 __pycache__/
 *.pyc
-Assignment2/Project_A/venva/
-Assignment2/air_pollution_app/venve_weather/
+*.pyo
 
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp
+# =========================
+*.log
