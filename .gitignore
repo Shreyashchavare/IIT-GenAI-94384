@@ -1,14 +1,18 @@
 # =========================
-# Python virtual environments
-# =========================
-venva/
-venv_weather/
-.venv/
-.env/
 # Environment variables
-Assignment3/
+# =========================
 .env
 *.env
+Assignment3/.env
+
+# =========================
+# Python virtual environments
+# =========================
+venv/
+venv_*/
+venva/
+.venv/
+
 # =========================
 # Python cache
 # =========================
