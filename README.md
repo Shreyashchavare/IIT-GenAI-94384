@@ -49,6 +49,31 @@ IIT-GenAI-94384/
 │ Assignment1.py
 │ Assignment1_Q3.py
 │ products.csv
+├───Assignment2
+| ├───air_pollution_app/
+| | air_pollution_api.py
+| | main.py
+| ├───Project_A/
+| | main.py
+| requirement.txt
+| json_placeholder.py
+| math_utils.py
+| response_data.json
+|  weather.py
+├───Assignment3
+| ├───Class Demo/
+| | demo1.py
+| | demo2.py
+| | demo3.py
+| | demo4.py
+| | demo5.py
+| | demo6.py
+| | books_hdr.csv
+| | emp_hdr.csv
+| file_uploader.py
+| login_weather_app.py
+
+
 ```
 ---
 
