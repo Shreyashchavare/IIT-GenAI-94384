@@ -65,8 +65,11 @@ def get_weather_city(city):
  
 #======== Session Management ========
 # Its a session management for logged in user
-if 'logged_in' not in st.session_state:
-     st.session_state.logged_in = False   
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if "page" not in st.session_state:
+    st.session_state.page = "login"  
 
 
 #======== Login Page==================================
@@ -87,6 +90,7 @@ def show_login_page():
                 if user_login(username, password) and username != password:
                     st.session_state.logged_in = True
                     st.success("Login successful!!!!")
+                    st.session_state.page = "weather"
                     st.rerun()
                 else:
                     st.error("Invalid username and password possibility of same username and password")   
@@ -132,12 +136,34 @@ def show_weather_page():
 
     
     if st.button("Logout"):
-         st.session_state.logged_in =False
-         st.rerun()
-   
+        st.session_state.logged_in = False
+        st.session_state.page = "logout"
+        st.rerun()
+
+
+# ==================== Logout Page ===================== 
+def show_logout_page():
+    """
+    Logout page to logout and rerun app
+    Return: None
+    """
+    st.title("👋 Thanks for Visiting")
+    st.success("You have been logged out successfully.")
+
+    st.info("Click below to return to login page")
+
+    if st.button("Go to Login"):
+        st.session_state.page = "login"
+        st.rerun()
+
+ 
 # ===== Page Routing =====
 #It is a page routing for an app to navigate from login to app page
-if st.session_state.logged_in:
-    show_weather_page()
-else:
+if st.session_state.page == "login":
     show_login_page()
+
+elif st.session_state.page == "weather":
+    show_weather_page()
+
+elif st.session_state.page == "logout":
+    show_logout_page()

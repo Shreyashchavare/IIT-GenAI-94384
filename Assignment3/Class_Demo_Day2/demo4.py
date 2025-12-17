@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-st.title("CSE Explorer")
+st.title("CSV Explorer")
 
 data_file = st.file_uploader("Upload a CSV file ", type=["csv"])
 
