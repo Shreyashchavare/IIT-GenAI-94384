@@ -1,13 +1,16 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
 """
  Create a weather app that takes city input and displays forecast
 """
+load_dotenv()
 def current_weather_of_city(city):
     """
     returns the data of weather of the city by input
     """
-    api_key = "3dd0bb17ba0ad07b4017dee978c2609a"
+    api_key = os.getenv("OPEN_WEATHER_API")
     BASE_URL ="https://api.openweathermap.org/data/2.5/weather" 
     complete_weather_url = f"{BASE_URL}?q={city}&appid={api_key}&units=metric"
     try:

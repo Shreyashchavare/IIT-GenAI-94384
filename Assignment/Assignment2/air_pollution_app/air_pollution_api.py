@@ -1,16 +1,19 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
 """
 Get current air pollution data for a city name using openweather
 """
-
+load_dotenv()
 
 def current_air_condition_of_city(city):
     """
     Get the air pollution of city by the getting lon and lat of a city first then 
     by that co-ordinates get the data of pollution
     """
-    api_key = "3dd0bb17ba0ad07b4017dee978c2609a"
+
+    api_key = os.getenv("OPEN_WEATHER_API")
     BASE_URL_AIR = "http://api.openweathermap.org/data/2.5/air_pollution"
     BASE_URL_LOC = "http://api.openweathermap.org/geo/1.0/direct"
     # 1) Getting lat and lon for city
