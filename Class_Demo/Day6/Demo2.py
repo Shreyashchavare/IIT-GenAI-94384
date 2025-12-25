@@ -6,11 +6,10 @@ from langchain.tools import tool
 # ===================== PAGE CONFIG =====================
 st.set_page_config(
     page_title="LangChain Tool Agent",
-    page_icon="🧮",
     layout="wide"
 )
 
-st.title("🧮 LangChain Calculator Agent (Local LLM)", text_alignment="center")
+st.title("LangChain Calculator Agent (Local LLM)", text_alignment="center")
 
 # ===================== TOOL ============================
 @tool

@@ -44,7 +44,7 @@ if csv_file:
 llm = init_chat_model(
     model="google/gemma-3-4b",
     model_provider="openai",
-    base_url="http://10.230.255.200:1234/v1",
+    base_url="http://localhost:1234/v1",
     api_key="not-needed"
 )
 
