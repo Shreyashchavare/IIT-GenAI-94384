@@ -18,9 +18,14 @@
 
 This repository contains all the **assignments and practice programs** completed during my training program in:
 
-- 💻 Programming
-- 🤖 GenAI   
-
+- 💻 Programming(OOP)
+- 🤖 Chatbot   
+- 🧬 GenAI
+- 👽 Agent
+- 👹 RAG /Agentic RAG
+- 💬 Streamlit
+- 📊 Chroma DB
+  
 ---
 
 ## 🏫 Training Details
@@ -35,48 +40,27 @@ This repository contains all the **assignments and practice programs** completed
 | 📚 Mode         |  Offline                         |
 
 ---
+## 🧱 Tech Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Streamlit-1.29-red?style=for-the-badge&logo=streamlit&logoColor=white"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/LangChain-v1-green?style=for-the-badge&logo=langchain&logoColor=white"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/ChromaDB-VectorDB-orange?style=for-the-badge"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/LM_Studio-Local_LLM-purple?style=for-the-badge"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/RAG-Agentic_RAG-darkgreen?style=for-the-badge"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/VS_Code-Latest-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Git-Version_Control-black?style=for-the-badge&logo=git&logoColor=white"/>
+
+</p>
+
+---
 
 ## 📂 Repository Structure
 ```txt
-IIT-GenAI-94384/
-├── .gitignore
-├── arithmetic.py
-├── calculation.py
-├── Git Push Demo.txt
-├── README.md
-│
-├── Assignment1/
-│   ├── Assignment1.py
-│   ├── Assignment1_Q3.py
-│   └── products.csv
-│
-├── Assignment2/
-│   ├── air_pollution_app/
-│   │   ├── air_pollution_api.py
-│   │   └── main.py
-│   │
-│   ├── Project_A/
-│   │   └── main.py
-│   │
-│   ├── requirement.txt
-│   ├── json_placeholder.py
-│   ├── math_utils.py
-│   ├── response_data.json
-│   └── weather.py
-│
-├── Assignment3/
-│   ├── Class Demo/
-│   │   ├── demo1.py
-│   │   ├── demo2.py
-│   │   ├── demo3.py
-│   │   ├── demo4.py
-│   │   ├── demo5.py
-│   │   ├── demo6.py
-│   │   ├── books_hdr.csv
-│   │   └── emp_hdr.csv
-│   │
-│   ├── file_uploader.py
-│   └── login_weather_app.py
 
 ```
 ---
@@ -97,7 +81,21 @@ IIT-GenAI-94384/
 
 ## ⚒️Technology and Tools
 - ✅ Python
-
+- ✅ LM Studio
+- ✅ Streamlit
+- ✅ VS code
+- ✅ RAG
+- ✅ LLM
+- ✅ Agent
+- ✅ Agentic RAG
+- ✅ Chroma DB
+- ✅ REST APIs
+- ✅ Embedding
+- ✅ Hugging Face
+- ✅ Langchain v1
+- ✅ OOP
+- ✅ Prmopt Engineering
+  
 ---
 
 ## 🎯Objectives of This Training
